@@ -1,0 +1,62 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.corpo{
+    background-color: #000000;
+    color: #A9A9A9;
+    font-family: 'Teko', sans-serif;
+}
+
+.col-md-10{
+    border-radius: 10px; 
+}
+
+.poster{    
+    width: 300px;
+    height:300px;
+}
+
+.links{
+    display: flex;
+    text-align;: center;
+
+}
+
+.h2{
+     font-size: 40px;
+}
+
+.Navega{
+    width: 38px;
+    display: inline-block;
+    text-align: center;
+    padding: 5vw 0vw 5vw 0vw;
+    min-width:40px;  
+}
+.secao{
+    font-size: 30px;
+    text-align: center;
+
+}
+.resenha{    
+    font-size: 20px;
+    text-align: center;  
+}
+
+.rodape{
+    display: flex;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+}
+
+.links{
+    background-color: #484848;
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}

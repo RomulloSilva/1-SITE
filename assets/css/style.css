@@ -9,8 +9,9 @@
     font-family: 'Teko', sans-serif;
 }
 
-.col-md-10{
-    border-radius: 10px; 
+.links{
+    border-radius: 70px; 
+    background: #363636;
 }
 
 .poster{    

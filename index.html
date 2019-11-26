@@ -13,7 +13,7 @@
 
        <link rel="stylesheet" href="assets/css/style.css">
 
-      <link rel= "shortcut icon" href= "assets/imagens/logo.jpg" type="image/x-jpg/">
+      <link rel= "shortcut icon" href= "assets/imagens/cinema1.jpg" type="image/x-jpg/">
 
        <title>Blog Cine</title>
 
@@ -44,19 +44,19 @@
                         </div>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="https://www.cinepolis.com.br/programacao/sao-paulo/21.html" target="blank">Em cartaz</a>
+                        <a class="nav-link" href="https://www.cinepolis.com.br/programacao/sao-paulo/21.html" target="_blank">Em cartaz</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link disabled" href="assets/html/formulario.html" target="blank">Cadastre-se</a>
+                        <a class="nav-link disabled" href="assets/html/formulario.html" target="_blank">Cadastre-se</a>
                       </li>
                     </ul>
                     <!---acabao menu-->
                 </div>
             
                 <!---imagens do giph-->
-                <div class="col-md-10 gif">
+                <div class="col-md-10 rounded">
 
-                  <img  src="assets/imagens/MoviesOnTop.gif" alt="Imagem do poster do filme" title="poster do filme liga da justiça" width="100%" height="auto">
+                  <img  src="assets/imagens/vintagecinema.jpg" alt="Imagem do poster do filme" title="poster do filme liga da justiça" width="100%" height="auto">
 
                 </div>
               </div>
@@ -66,16 +66,42 @@
 
     <div class="container">
       <div class="row">
-          <div class="col-md-4">
-            <nav class="Navega">
-              <!--conteúdo-->
-              <h2>Nos cinemas</h2>
-              <img src="assets/imagens/justiça.jpg" alt="Imagem do poster do filme" title="poster do filme liga da justiça" class="poster">
-              <img src="assets/imagens/coringa.webp" alt="Imagem do poster do filme" title="poster do filme coringa" class="poster">
-              <img src="assets/imagens/suicide.webp" alt="Imagem do poster do filme" title="poster do filme Esquadrão suicida" class="poster">       
-            </nav>
+          <div class="col-md-5">
+            <!---começa o conteiner dos poster-->
+
+
+
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                  <div class="carousel-inner">
+                     <div class="carousel-item active">
+                         <a href="https://www.warnerbros.com/movies/justice-league/" target="_blank"><img class="d-block w-100" src="assets/imagens/justiça.jpg" alt="Primeiro Slide"></a>
+                          </div>
+                         <div class="carousel-item">
+                              <img class="d-block w-100" src="assets/imagens/suicide.webp" alt="Segundo Slide">
+                            </div>
+                          <div class="carousel-item">
+                                <img class="d-block w-100" src="assets/imagens/coringa.webp" alt="Terceiro Slide">
+                           </div>
+                        </div>
+                      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Anterior</span>
+                        </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Próximo</span>
+      </a>
+</div>
+
+
+            <!----acaba o conteiner dos posters-->
           </div>  
-          <div class="col-md-4">
+          <div class="col-md-2">
             <section class="secao">
                 <!--lista de seleção para logados-->
                 <div>
@@ -89,7 +115,7 @@
                 </div>
             </section>
           </div> 
-          <div class="col-md-4">
+          <div class="col-md-5">
             <aside class="resenha">
                 <!---Texto de resenhas-->
                 <h2>Crítica 1</h2>

@@ -19,6 +19,15 @@
     height:300px;
 }
 
+.col-md-5{
+    border: solid 5px rgb(204, 15, 15);
+    height: 800px;
+}
+.col-md-2{
+    border: solid 5px rgb(204, 15, 15);
+    height: 800px;
+}
+
 .links{
     display: flex;
     text-align;: center;
@@ -37,8 +46,8 @@
     min-width:40px;  
 }
 .secao{
-    font-size: 30px;
-    text-align: center;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
 .resenha{    
@@ -48,6 +57,11 @@
 
 .rodape{
     display: flex;
+    border: solid 5px rgb(204, 15, 15);
+    height: 800px;
+    width: 400px;
+    margin-left: ;
+    
 }
 
 .cabecalho{
@@ -60,4 +74,9 @@
     border-radius: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
+}
+
+.table-overflow {
+    max-height:800px;
+    overflow-y:auto;
 }
